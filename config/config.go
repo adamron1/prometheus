@@ -909,11 +909,7 @@ type EC2SDConfig struct {
 	SecretKey       string         `yaml:"secret_key,omitempty"`
 	RefreshInterval model.Duration `yaml:"refresh_interval,omitempty"`
 	Port            int            `yaml:"port"`
-<<<<<<< HEAD
-
-=======
 	TagFilters      []string       `yaml:"tag_filters,omitempty"`
->>>>>>> 6bbf6f66fa69801527799eaab3f1397f8dacc69e
 	// Catches all undefined fields and must be empty after parsing.
 	XXX map[string]interface{} `yaml:",inline"`
 }
